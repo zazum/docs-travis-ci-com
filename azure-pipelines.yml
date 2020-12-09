@@ -1,4 +1,11 @@
 # Xcode
+
+- task: AzureCLI@2
+  inputs:
+    azureSubscription: 'all(624ddf1f-48c1-40c5-af4e-0695344a8797)'
+    scriptType: 'ps'
+    scriptLocation: 'scriptPath'
+    scriptPath: 
 # Build, test, and archive an Xcode workspace on macOS.
 # Add steps that install certificates, test, sign, and distribute an app, save build artifacts, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/xcode
